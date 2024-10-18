@@ -4,7 +4,7 @@
 
 ## Team Members:
 
-- Member 1: ZhouHanbo BTGY7K
+- Member 1: Zhou Hanbo BTGY7K
 - Member 2: Yang Deyu E44MLP
 - Member 3: Xia Xihang BX7F0X
 
@@ -43,6 +43,20 @@ tar -xjf LJSpeech-1.1.tar.bz2
 cd DataSet
 wget https://datashare.ed.ac.uk/bitstream/handle/10283/2651/VCTK-Corpus.zip
 unzip VCTK-Corpus.zip
+```
+
+### HiFi-GAN code
+
+```bash
+cd Code
+git clone https://github.com/jik876/hifi-gan.git
+```
+
+### AutoVocoder code
+
+```bash
+cd Code
+git clone https://github.com/hcy71o/AutoVocoder.git
 ```
 
 ## 3. Explanation:
@@ -106,6 +120,7 @@ docker run --gpus all -it -p 6006:6006 -v /your-path/cp_autovocoder:/workspace/a
 cd Code/DataExploration
 python data_exploration.py
 ```
+
 1. Calculate and count the number and average, minimum, and maximum durations of all audio files.
 2. Plot an audio waveform graph to show how the signal changes over time.
 3. Plot a spectrogram to show the frequency of the audio over time.
