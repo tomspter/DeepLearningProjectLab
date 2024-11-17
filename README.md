@@ -125,3 +125,13 @@ python data_exploration.py
 2. Plot an audio waveform graph to show how the signal changes over time.
 3. Plot a spectrogram to show the frequency of the audio over time.
 4. plot a mel spectrogram to show the frequency of the audio over time.
+
+## 6. Training example
+[train example](DataExploration/train.ipynb)
+
+## 7. Evaluation example
+[evaluation example](DataExploration/evaluation.ipynb)
+
+
+
+
