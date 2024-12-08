@@ -127,10 +127,10 @@ python data_exploration.py
 4. plot a mel spectrogram to show the frequency of the audio over time.
 
 ## 6. Training example
-[train example](DataExploration/train.ipynb)
+[train example](Code/DataExploration/train.ipynb)
 
 ## 7. Evaluation example
-[evaluation example](DataExploration/evaluation.ipynb)
+[evaluation example](Code/DataExploration/evaluation.ipynb)
 
 
 
