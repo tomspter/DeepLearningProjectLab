@@ -147,5 +147,8 @@ Trying to record and clicking on the SUBMIT button will visualise the result aft
 ## 9. PPT file
 [PPT file](DL_presentation.pptx)
 
+## 10. PDF file
+[PDF file](DL.pdf)
+
 
 
