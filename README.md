@@ -132,6 +132,17 @@ python data_exploration.py
 ## 7. Evaluation example
 [evaluation example](Code/DataExploration/evaluation.ipynb)
 
+## 8. Frontend
+You can run the frontend by running the following command:
+
+```bash
+py /Code/DataExploration/frontend.py
+```
+
+Then you can open the browser and enter the address: http://localhost:7860/
+
+Trying to record and clicking on the SUBMIT button will visualise the result after HIFI-gan and autovocoder reasoning, including the AUDIO FILE and the MEL graph. And click compare to see the results of the three images side by side.
+![img.png](img.png)
 
 
 
